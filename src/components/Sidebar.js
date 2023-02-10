@@ -5,6 +5,10 @@ import Suggestions from "./Suggestions";
 import Footer from "./Footer";
 import image from "../images/profile.jpg";
 
+/**
+ * It renders a sticky sidebar with a profile, suggestions, and a footer
+ * @returns A Sticky component with a div with className "sidebar"
+ */
 function Sidebar() {
   return (
     <Sticky topOffset={-80}>

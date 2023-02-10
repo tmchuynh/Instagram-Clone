@@ -2,6 +2,10 @@ import "../styles/cards.scss";
 import Stories from "./Stories";
 import Card from "./Card";
 
+/**
+ * It returns a div with a Stories component and three Card components
+ * @returns A div with the class of cards.
+ */
 function Cards() {
   const commentsOne = [
     {

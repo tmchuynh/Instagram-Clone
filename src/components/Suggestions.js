@@ -1,6 +1,10 @@
 import "../styles/suggestions.scss";
 import Profile from "./Profile";
 
+/**
+ * It returns a div with a title, a link, and five Profile components
+ * @returns A div with the className of "suggestions" is being returned.
+ */
 function Suggestions() {
   return (
     <div className="suggestions">
@@ -9,6 +13,7 @@ function Suggestions() {
         <a href="/">See All</a>
       </div>
 
+      /* Calling the Profile component and passing in props. */
       <Profile
         caption="Followed by mapvault + 3 more"
         urlText="Follow"

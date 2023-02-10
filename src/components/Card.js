@@ -4,6 +4,12 @@ import { ReactComponent as CardButton } from "../images/cardButton.svg";
 import CardMenu from "./CardMenu";
 import Comment from "./Comment";
 
+/**
+ * The Card function returns a div with a header, image, CardMenu, likedBy, comments, timePosted, and
+ * addComment
+ * @param props - {
+ * @returns A div with a class of card.
+ */
 function Card(props) {
   const {
     storyBorder,

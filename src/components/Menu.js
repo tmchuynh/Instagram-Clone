@@ -6,6 +6,11 @@ import { ReactComponent as Notifications } from "../images/notifications.svg";
 import ProfileIcon from "./ProfileIcon";
 import image from "../images/profile.jpg";
 
+/**
+ * It returns a div with a Home icon, an Inbox icon, an Explore icon, a Notifications icon, and a
+ * ProfileIcon
+ * @returns A div with a class of menu.
+ */
 function Menu() {
   return (
     <div className="menu">

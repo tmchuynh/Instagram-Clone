@@ -1,3 +1,4 @@
+/* Creating an array of objects. */
 const users = [
     {
       id: 1,
